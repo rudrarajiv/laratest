@@ -16,4 +16,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/testing_add','TestingController@testing_add');
+Route::get('/form','FormController@show_form');
+
+Route::get('/submit_form','FormController@submit_form');
+
+Route::get('/get_datas','FormController@get_datas');
